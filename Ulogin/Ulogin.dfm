@@ -43,14 +43,14 @@ object Form6: TForm6
   object l3: TLabel
     Left = 184
     Top = 40
-    Width = 57
+    Width = 55
     Height = 24
     Caption = 'LOGIN'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -20
-    Font.Name = 'Tahoma'
-    Font.Style = []
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -19
+    Font.Name = 'Trebuchet MS'
+    Font.Style = [fsBold]
     ParentFont = False
   end
   object Edit1: TEdit
