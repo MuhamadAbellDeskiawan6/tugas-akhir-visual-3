@@ -15,7 +15,8 @@ uses
   Udetailreturn in 'Udetailreturn\Udetailreturn.pas' {Form11},
   Udetailjual in 'Udetailjual\Udetailjual.pas' {Form12},
   Udetailbeli in 'Udetailbeli\Udetailbeli.pas' {Form13},
-  Umenu in 'Umenu\Umenu.pas' {Form14};
+  Umenu in 'Umenu\Umenu.pas' {Form14},
+  Umenu2 in 'Umenu2\Umenu2.pas' {Form15};
 
 {$R *.res}
 
@@ -35,5 +36,6 @@ begin
   Application.CreateForm(TForm5, Form5);
   Application.CreateForm(TForm3, Form3);
   Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm15, Form15);
   Application.Run;
 end.

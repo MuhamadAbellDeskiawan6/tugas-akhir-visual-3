@@ -34,7 +34,7 @@ var
 
 implementation
 
-uses Uuser, Udaftar, Umenu;
+uses Uuser, Udaftar, Umenu, Umenu2;
 
 {$R *.dfm}
 
@@ -57,7 +57,14 @@ Application.MessageBox('Pastikan password yang anda masukkan benar','ERROR',MB_O
 else
 begin
 Application.MessageBox('LOGIN BERHASIL','INFORMASI',MB_OK or MB_ICONINFORMATION);
+if ZQuery1.FieldByName('status').AsString='admin' then
+begin
 Form14.Show;
+end
+else
+begin
+form15.show;
+end
 end;
 end;
 hide;

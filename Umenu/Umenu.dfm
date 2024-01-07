@@ -3,7 +3,7 @@ object Form14: TForm14
   Top = 152
   Width = 1044
   Height = 540
-  Caption = 'MENU UTAMA'
+  Caption = 'FORM MENU UTAMA ADMIN'
   Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
